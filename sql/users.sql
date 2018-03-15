@@ -34,7 +34,7 @@ CREATE TABLE `users` (
   `user_email` varchar(40) NOT NULL,
   `user_pass` varchar(255) NOT NULL,
   `joining_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `users`
